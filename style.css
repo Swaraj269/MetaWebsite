@@ -539,7 +539,7 @@ footer {
   font-weight: 400;
 }
 .develop {
-  width: 42%;
+  width: 42.9%;
   display: flex;
   justify-content: space-between;
   gap: 1vw;
@@ -1100,6 +1100,8 @@ footer {
   }
 
   #footerpart2 h2 {
+    display: inline-block;
+    width: 50%;
     font-size: 3.5vw;
     font-weight: 600;
     line-height: 1.25;
