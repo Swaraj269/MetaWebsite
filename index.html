@@ -15,10 +15,26 @@
       href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
+    <div class="menudiv">
+      <div class="menudivwrapper">
+        <div id="menucross"><i class="ri-close-large-line"></i></div>
+        <div id="menulist">
+          <h3><a href="#page1">Home</a></h3>
+          <h3><a href="#page2">About Us</a></h3>
+          <h3><a href="#page3">Events</a></h3>
+          <h3><a href="#page4">Council</a></h3>
+          <h3><a href="#footer">Contact Us</a></h3>
+        </div>
+      </div>
+    </div>
+    <main id="main">
       <div id="page1">
         <div id="page1wrapper">
           <nav>
@@ -33,6 +49,7 @@
               </div>
             </div>
             <div class="navpart2">
+              <i id="menubutton" class="ri-menu-line"></i>
               <div class="navlinks">
                 <h4><a href="#page1">Home</a></h4>
                 <div class="navunderline"></div>
@@ -58,7 +75,7 @@
           <div id="page1content">
             <div id="homepagetext">
               <div class="homepagetextwrapper">
-                <h4>MECHANICAL ENGINEERING TECHNICAL ASSOCIATION</h4>
+                <h4 id="toph4">MECHANICAL ENGINEERING TECHNICAL ASSOCIATION</h4>
                 <h1>Nurturing the</h1>
                 <h1>Next Generation of <br /></h1>
                 <h1>Mechanical Innovators.</h1>
@@ -88,17 +105,17 @@
           <div id="page2textdiv">
             <h1>META Formation</h1>
             <h4>
-              META is formed with the primary objective of exposing the <br />
-              aspiring mechanical engineers to the practical aspects and <br />
+              META is formed with the primary objective of exposing the <br class="break"/>
+              aspiring mechanical engineers to the practical aspects and <br class="break" />
               professional challenges for their sustainable growth.
             </h4>
             <h5>
-              META was formally inaugurated by our Director <br />
-              (Incharge), Dr. Saidi Reddy on 8th November 2019 in the <br />
-              presence of Dr. C. Vyjayanthi, HoD Mechanical and was <br />
-              attended by the faculty, staff and students of Mechanical <br />
-              and Civil Engineering. The inaugural ceremony included <br />
-              Logo launch, highlighting the activities conducted and <br />
+              META was formally inaugurated by our Director <br class="break" />
+              (Incharge), Dr. Saidi Reddy on 8th November 2019 in the <br class="break" />
+              presence of Dr. C. Vyjayanthi, HoD Mechanical and was <br class="break" />
+              attended by the faculty, staff and students of Mechanical <br class="break" />
+              and Civil Engineering. The inaugural ceremony included <br class="break" />
+              Logo launch, highlighting the activities conducted and <br class="break" />
               future plans.
             </h5>
           </div>
@@ -225,15 +242,26 @@
       </div>
       <footer id="footer">
         <div id="footerpart1">
-          <h1>Follow Us On <a href="https://www.instagram.com/meta_nitg?igsh=MWFjcDl2Y3o4a21wYQ==">Instagram</a></h1>
+          <h1>
+            Follow Us On
+            <a
+              href="https://www.instagram.com/meta_nitg?igsh=MWFjcDl2Y3o4a21wYQ=="
+              >Instagram</a
+            >
+          </h1>
         </div>
         <div id="footerpart2">
           <div class="develop">
             <h2>Design and Develop by</h2>
-            <h4>Swaraj Singh (22MCE1030), Felix Jayaprakash (22MCE1008), Prshant Swami (22MCE1021)</h4>
+            <h4>
+              Swaraj Singh (22MCE1030), Felix Jayaprakash (22MCE1008), Prshant
+              Swami (22MCE1021)
+            </h4>
           </div>
         </div>
       </footer>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
   </body>
 </html>
